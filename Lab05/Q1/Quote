@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Quote</title>
+        <style>
+            body{
+                background-image: url(photo-1517960413843-0aee8e2b3285.png);
+            }
+            h1{
+                text-align: center;
+                color: red;
+            }
+            .transparent-box {
+                background-color: rgba(235, 225, 225, 0.5);
+                padding: 20px;
+                border: 2px solid white;
+                width: 300px;
+                height: auto;
+                margin: 0 auto;
+            }
+    
+            .transparent-box p {
+                text-align: center;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Quote For Life</h1>
+        <br><br><br>
+        <div class="transparent-box">
+            <p>Life is what happens <br>when you're busy making other plans. </p>
+            <p>-John Lennon</p>
+        </div>
+    </body>
+</html>
