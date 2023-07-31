@@ -1,0 +1,15 @@
+<html>
+<head>
+    <title>Year of Birth from NIC</title>
+</head>
+<body>
+
+    <script>
+        let nicNumber = prompt("Enter your NIC number:");
+
+        let yearOfBirth = "19" + nicNumber.substring(0, 2);
+        alert("Year of Birth: " + yearOfBirth);
+    </script>
+
+</body>
+</html>
