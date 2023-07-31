@@ -1,0 +1,17 @@
+
+<html>
+<head>
+    <title>Calculate Circle Area</title>
+</head>
+<body>
+    <script>
+        const pi = 22 / 7;
+
+        const radius = parseFloat(prompt("Enter Radius:"));
+
+        const area = pi * radius * radius;
+
+        alert(`The area of the circle with radius ${radius} is: ${area}`);
+    </script>
+</body>
+</html>
